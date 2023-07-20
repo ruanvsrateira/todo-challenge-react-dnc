@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 
 import "./index.scss";
-import { todos } from "../../mock/todos";
 import { Input } from "../Input/Input";
 
 export const Modal = ({ toggleModal, type, info }) => {
