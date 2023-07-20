@@ -1,3 +1,5 @@
+import "./index.scss";
+
 import React, { useState } from "react";
 
 import { Header } from "../../components/Header/Header";
@@ -5,8 +7,6 @@ import { Title } from "../../components/Title/Title";
 import { Table } from "../../components/Table/Table";
 import { todos } from "../../mock/todos";
 import { Modal } from "../../components/Modal/Modal";
-
-import "./index.scss";
 
 export const Home = () => {
   const [modalVisible, setModalVisible] = useState(false);
