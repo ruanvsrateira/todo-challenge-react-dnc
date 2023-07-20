@@ -1,0 +1,40 @@
+.table {
+  font-family: "Raleway";
+  border-collapse: collapse;
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .italic-text {
+    font-style: italic;
+    text-align: center;
+  }
+
+  td,
+  th {
+    color: #fff;
+    padding: 15px 20px;
+  }
+
+  td {
+    width: 200px;
+
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+
+      img {
+        size: 24px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  th {
+    border-bottom: 4px solid #fff;
+    font-size: 23px;
+  }
+}

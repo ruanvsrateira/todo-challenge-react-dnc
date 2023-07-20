@@ -1,0 +1,27 @@
+.header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: flex-end;
+  background-color: #0c70f2;
+  padding-left: 20px;
+
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+
+    li {
+      color: #fff;
+      font-family: "Poppins";
+    }
+
+    .selected-tab {
+      padding: 5px 30px;
+      background-color: #fff;
+      color: #0c70f2;
+      border-radius: 10px 10px 0px 0px;
+    }
+  }
+}
